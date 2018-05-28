@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+
+	<description>JSTL 1.1 functions library</description>
+	<display-name>JSTL functions sys</display-name>
+	<tlib-version>1.1</tlib-version>
+	<short-name>my</short-name>
+	<uri>http://java.sun.com/jsp/jstl/functionss</uri>
+
+	<function>
+		<description>根据用户名获取用户</description>
+		<name>toUpper</name>
+		<function-class>my.tag.Fn</function-class>
+		<function-signature>java.lang.String toUpper(java.lang.String)</function-signature>
+		<example>${my:toUpper(str)}</example>
+	</function>
+
+	<function>
+		<description>根据用户名获取用户</description>
+		<name>json</name>
+		<function-class>my.tag.Fn</function-class>
+		<function-signature>java.lang.String json(java.lang.Object)</function-signature>
+		<example>${my:json(str)}</example>
+	</function>
+
+
+	<function>
+		<description>国际化</description>
+		<name>i18n</name>
+		<function-class>my.util.I18N</function-class>
+		<function-signature>java.lang.String msg(java.lang.String)</function-signature>
+		<example>${my:i18n(str)}</example>
+	</function>
+
+	<function>
+		<description>数据字典</description>
+		<name>dictJson</name>
+		<function-class>my.util.Fn</function-class>
+		<function-signature>java.lang.String dictJson(java.lang.String)</function-signature>
+		<example>${my:dictJson(str)}</example>
+	</function>
+
+	<function>
+		<description>单位信息</description>
+		<name>branchJson</name>
+		<function-class>my.util.Fn</function-class>
+		<function-signature>java.lang.String branchJson()</function-signature>
+		<example>${my:branchJson()}</example>
+	</function>
+	<function>
+		<description>医生信息</description>
+		<name>doctorJson</name>
+		<function-class>my.util.Fn</function-class>
+		<function-signature>java.lang.String doctorJson()</function-signature>
+		<example>${my:doctorJson()}</example>
+	</function>
+	<function>
+		<description>组织机构信息</description>
+		<name>orgJson</name>
+		<function-class>my.util.Fn</function-class>
+		<function-signature>java.lang.String orgJson()</function-signature>
+		<example>${my:orgJson()}</example>
+	</function>
+	<function>
+		<description>科室信息</description>
+		<name>deptJson</name>
+		<function-class>my.util.Fn</function-class>
+		<function-signature>java.lang.String deptJson()</function-signature>
+		<example>${my:deptJson()}</example>
+	</function>
+
+
+</taglib>

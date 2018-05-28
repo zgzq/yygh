@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib tagdir="/WEB-INF/tags" prefix="tag"%>
+<%@ taglib uri="/WEB-INF/tlds/my.tld" prefix="my"%>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="Cache-control" content="no-cache">
+<meta name="viewport"
+	content="width=device-width; minimum-scale=1.0; maximum-scale=1.0">
+<title>${hos.hospitalname}</title>
+<link href="$url/css/bootstrap.css"
+	rel="stylesheet" type="text/css">
+<link href="$url/css/style.css"
+	rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css"
+	href="$url/css/jquery-ui.css">
+<script type="text/javascript"
+	src="$url/js/jquery.js"></script>
+<script type="text/javascript"
+	src="$url/js/jquery.yiiactiveform.js"></script>
+<script type="text/javascript"
+	src="$url/js/jquery-ui.min.js"></script>
+<script type="text/javascript"
+	src="$url/js/jquery-ui-i18n.min.js"></script>
+</head>
+<body style="zoom: 1;">
+	<div class="area">中美集团</div>
+	#foreach( $org in $orgs )
+		<div class="block12">
+			<ul>
+					<li><a style="color:#0c9979;font-weight:bold;"
+						href="$org.url">$org.org_name</a></li>
+
+			</ul>
+		</div>
+	#end
+
+</body>
+</html>

@@ -1,0 +1,670 @@
+﻿@charset "utf-8";
+
+
+/*手机端样式*/
+
+
+#wrap {display:block;min-width: 320px;background: url(../../image/wxcp/bjt.jpg); background-size:100% 100%; margin:0 auto; max-width:640px; width: 100%;height:100%;overflow: hidden;-webkit-box-sizing: border-box; -moz-box-sizing:border-box;  }
+
+ 
+
+
+
+
+
+.banner{display:block; with:100%; max-width:640px;}
+
+
+
+
+
+
+
+.banner img{display:block; with:100%;}
+
+
+
+
+
+
+
+.telnav {display:block; position:relative; width:100%; margin:3.5% 0 1%;
+
+
+
+
+
+
+
+  -moz-perspective:800px;/*将平面图形转换为具有透视的3D图形*/
+
+
+
+
+
+
+
+  -moz-transform-style:preserve-3d;/*transform-style: flat,所有子元素在 2D 平面呈现 | preserve-3d,保留3D空间*/
+
+
+
+
+
+
+
+  -webkit-perspective:800px;
+
+
+
+
+
+
+
+  -webkit-transform-style:preserve-3d;
+
+
+
+
+
+
+
+  -moz-backface-visibility:;/*定义当元素不面向屏幕时是否可见,如果在旋转元素不希望看到其背面时，该属性很有用*/
+
+
+
+
+
+
+
+  -webkit-backface-visibility:hidden;/*visible背面是可见的,hidden背面是不可见的。*/
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+.telnav li{display:block;float:left; position:relative; color:#fff;  background:#fff; width:45%; margin:0% 0 2.5% 3.1%; border-radius:10px; text-align:center;
+
+
+
+
+
+
+
+ 
+
+
+
+filter: Alpha(Opacity=50); /* for IE */
+
+
+
+background-color: rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 6px 1px /*for FF*/
+
+
+
+}
+
+
+
+
+
+
+
+@-webkit-keyframes wobble{
+
+
+
+
+
+
+
+  0% {-webkit-transform:rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+
+
+
+
+
+
+
+  25% {-webkit-transform:rotateY(90deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+
+
+
+
+
+
+
+  50% {-webkit-transform:rotateY(180deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+
+
+
+
+
+
+
+  75% {-webkit-transform:rotateY(270deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+
+
+
+
+
+
+
+  100% {-webkit-transform:rotateY(360deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+@-moz-keyframes wobble{
+
+
+
+
+
+
+
+  0% {-moz-transform:rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+
+
+
+
+
+
+
+  25% {-moz-transform:rotateY(90deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+
+
+
+
+
+
+
+  50% {-moz-transform:rotateY(180deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+
+
+
+
+
+
+
+  75% {-moz-transform:rotateY(270deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+
+
+
+
+
+
+
+  100% {-moz-transform:rotateY(360deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+.telnav li span{display:block;float:left;  position:relative; width:100%;font-size:1.5em;color:#000; text-align:center; padding:1.5% 0% 2% 0%; margin-bottom:5px; }
+
+
+
+
+
+
+
+.telnav li p{display:block;float:left;  position:relative; color:#a0a0a0; width:86%; min-height:32px;font-size:1.3em; text-align:center; padding:0% 0% 6% 7%; }
+
+
+
+.telnav li:hover{ filter: alpha(opacity=0.7);
+
+
+
+    opacity: 0.7;}
+
+
+
+.icon_w{display:block;width:84px; height:84px; border:1px solid #afafaf;border-radius:100px;margin:2% auto 2%;overflow:hidden;}
+
+
+
+
+
+
+
+.icon {display:block;width:80px; height:80px;/*padding:5% 0%; */  padding:0%;border-radius:100px;border:2px solid #fff;background:#f2f9f8; overflow:hidden; }
+
+
+
+
+
+
+
+.icon img {display:block; width:100%; min-height:100%; vertical-align:middle;border-radius:100px; overflow:hidden;}
+
+
+
+
+
+
+
+footer {display:block;width:100%;line-height:30px; background:#1f1f1f; color:#fff; font-size:1.4em; text-align:center;}
+
+
+
+
+
+
+
+.logo{padding-top: 10px; background:url(../../image/wxcp/hd-bg.png) repeat-x;}
+
+
+
+.logo{text-align: center;}
+
+
+
+   .logo{margin:0 auto;padding:20px 0 10px;}
+
+
+
+      .logo,.nav{float: none;}
+
+
+
+	   .logo{padding: 0;}
+
+
+
+.mobile{
+
+	width: 100%;
+
+	float: left;
+
+
+
+}
+
+.mobile-inner{
+
+	width: 550px;
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+	background-color: #fafafa;
+
+	position: relative;
+
+}
+
+.mobile-inner img{
+
+	width: 100%;
+
+	margin-bottom: 30px;
+
+}
+
+.mobile-inner p{
+
+	color: #676767;
+
+	line-height: 25px;
+
+	font-size: 16px;
+
+	padding-bottom: 30px;
+
+	padding-right: 30px;
+
+	padding-left: 30px;
+
+	margin:0px;
+
+}
+
+.mobile-inner-header{
+
+	background-color: rgba(0,0,0,0.7);
+
+	width: 100%;
+
+	height: 50px;
+
+	position: absolute;
+
+	top: 0px;
+
+	left: 0px;
+
+}
+
+.mobile-inner-header-icon{
+
+	color: #ffffff;
+
+	height: 50px;
+
+	font-size:25px;
+
+	text-align: center;
+
+	float:right;
+
+	width: 50px;
+
+	position: relative;
+
+	-webkit-transition: background 0.5s;
+
+	-moz-transition: background 0.5s;
+
+	-o-transition: background 0.5s;
+
+	transition: background 0.5s;
+
+}
+
+.mobile-inner-header-icon:hover{
+
+	background-color: rgba(255,255,255,0.2);
+
+	cursor: pointer;
+
+}
+
+.mobile-inner-header-icon span{
+
+	position: absolute;
+
+	left: calc((100% - 25px) / 2);
+
+	top: calc((100% - 1px) / 2);
+
+	width: 25px;
+
+	height: 1px;
+
+	background-color: rgba(255,255,255,1);
+
+}
+
+.mobile-inner-header-icon span:nth-child(1){
+
+transform: translateY(4px) rotate(0deg);
+
+	}
+
+.mobile-inner-header-icon span:nth-child(2){
+
+transform: translateY(-4px) rotate(0deg);
+
+	}
+
+	
+
+
+
+
+
+
+
+	
+
+.mobile-inner-header-icon-click span:nth-child(1){
+
+	animation-duration: 0.5s;
+
+	animation-fill-mode: both;
+
+	animation-name: clickfirst;
+
+	}		
+
+.mobile-inner-header-icon-click span:nth-child(2){
+
+	animation-duration: 0.5s;
+
+	animation-fill-mode: both;
+
+	animation-name: clicksecond;
+
+	}
+
+	
+
+
+
+
+
+@keyframes clickfirst {
+
+  0% {
+
+	  transform: translateY(4px) rotate(0deg);
+
+	  
+
+  }
+
+
+
+  100% {
+
+    transform: translateY(0) rotate(45deg);
+
+  }
+
+}	
+
+
+
+
+
+
+
+@keyframes clicksecond {
+
+  0% {
+
+	  transform: translateY(-4px) rotate(0deg);
+
+  }
+
+
+
+  100% {
+
+    transform: translateY(0) rotate(-45deg);
+
+  }
+
+}	
+
+
+
+.mobile-inner-header-icon-out span:nth-child(1){
+
+	animation-duration: 0.5s;
+
+	animation-fill-mode: both;
+
+	animation-name: outfirst;
+
+	}		
+
+.mobile-inner-header-icon-out span:nth-child(2){
+
+	animation-duration: 0.5s;
+
+	animation-fill-mode: both;
+
+	animation-name: outsecond;
+
+	}
+
+
+
+@keyframes outfirst {
+
+  0% {
+
+    transform: translateY(0) rotate(-45deg);
+
+  }
+
+
+
+  100% {
+
+    transform: translateY(-4px) rotate(0deg);
+
+  }
+
+}	
+
+
+
+
+
+
+
+@keyframes outsecond {
+
+  0% {
+
+    transform: translateY(0) rotate(45deg);
+
+  }
+
+
+
+  100% {
+
+    transform: translateY(4px) rotate(0deg);
+
+  }
+
+}
+
+
+
+.mobile-inner-nav{
+
+	background-color: rgba(0,0,0,0.9);
+
+	width: 100%;
+
+	position: absolute;
+
+	top: 50px;
+
+	left: 0px;
+
+	padding-top: 30px;
+
+	padding-bottom: 80px;
+
+	display: none;
+
+}
+
+.mobile-inner-nav a{
+
+	display: inline-block;
+
+	line-height: 50px;
+
+	text-decoration: none;
+
+	width: 80%;
+
+	margin-left: 10%;
+
+	color: #FFFFFF;
+
+	border-bottom: solid 1px rgba(255,255,255,0.3);
+
+	-webkit-transition: all 0.5s;
+
+	-moz-transition: all 0.5s;
+
+	-o-transition: all 0.5s;
+
+	transition: all 0.5s;
+
+	font-weight:300;
+
+}
+
+.mobile-inner-nav a:hover{
+
+	color: rgba(255,255,255,0.4);
+
+	border-bottom: solid 1px rgba(255,255,255,0.2);
+
+}
+
+	.b{display:none;}
+
+.buttons{border-bottom:solid #d1c8b8 4px;display:block;padding:8px;width:80px;-moz-border-radius: 1em 4em 1em 4em;border-radius: 1em 4em 1em 4em;text-align:center;margin:1px;background:#4b7975;text-decoration:none;color:#FFFFFF;float:left;font-family:Georgia, "Times New Roman", Times, serif;font-size:14px; margin-left:20px; margin-top:20px; }
+.buttonHover{background:#86b8b4;border-bottom:solid #FF0000 4px; color: #FF0000;}
+a.buttons:hover{background:#86b8b4;border-bottom:solid #FF0000 4px; }
+
+
+
+/*手机端样式图表*/
+
+
+
+.modbgd { width:88%; height:70%;display:block; position:absolute;top:23%; left:2%; background:rgba(255,255,255,0.3);-moz-border-radius:10px;-webkit-border-radius:10px;-o-border-radius:10px; border-radius:10px; padding:2% 6% 0.5% 2%;
+
+-webkit-animation-name: "modbgd"; /*动画名称，需要跟@keyframes定义的名称一致*/
+
+-webkit-animation-duration: 2s;/*动画持续的时间长*/
+
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/}
+
+.menu {display:block; position:relative; width: 95%; font-size:1.4em; color:fff;  padding:0% 4%; line-height:2; background:rgba(21,21,21,0.7);-moz-border-radius:10px;-webkit-border-radius:10px;-o-border-radius:10px; border-radius:10px; margin-bottom:4%;color:#FFF;text-align:center;
+
+animation:mymove 1.5s infinite;
+
+-webkit-animation:mymove 1.5s infinite;
+
+animation-iteration-count:1;
+
+-webkit-animation-iteration-count:1;
+
+}
+.menu:hover{ background:rgba(1,1,1,1);}

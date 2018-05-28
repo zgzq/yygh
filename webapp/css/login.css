@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,lable,p,blockquote{margin:0;padding:0;}
+body,html{background:#fff;}
+img{border:none; float:none; /*display:block;*/}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+input[type=text],input[type=password],textarea{border:1px solid #aecaf0;}
+input[type=text][disabled=disabled],.disabled{background:#eee;}
+input[type=text],input[type=password]{height:20px;line-height:22px;padding-left:3px;}
+input[type=password]{min-width:150px;width:auto;}
+input[type=text]:focus,input[type=password]:focus,textarea:focus{border:1px solid #ff8801;}
+a{blr:expression(this.onFocus=this.blur())}
+:focus{outline:0;}
+
+/*link styles*/
+a:link, a:visited{font-size:12px;color:#333;text-decoration:none;blr:expression_r(this.onFocus=this.blur());outline:none;}
+a:hover, a:active{font-size:12px;color:#ff3300;text-decoration:none;blr:expression_r(this.onFocus=this.blur());outline:none;}
+
+a,input,button{
+		   outline:none;
+		   hide-focus:expression(this.hideFocus=true) \9; 
+	   }
+button::-moz-focus-inner,input::-moz-focus-inner{border:none;}
+
+
+
+ html, body {
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+            }
+            
+#rmdt-header {
+    clear:both;
+    float:left;
+    margin:0;
+    overflow:hidden;
+    padding:0;
+    width:100%;
+    display: block;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-bottom:1px solid #c1c1c1;
+}
+#rmdt-logo {
+    float:left;
+    height:70px;
+    overflow:hidden;
+}
+#rmdt-logo h1 {
+    clear:none;
+    color:#555555;
+    float:left;
+    font-size:12pt;
+    padding:0px;
+    margin-top: 5px;
+}
+#rmdt-logo img {
+    border:medium none;
+    float:left;
+    padding-left:10px;
+    padding-top:7px;
+}
+
+#rmdt-userStatus {
+    color:#999999;
+    float:right;
+    font-size:8pt;
+    line-height:11pt;
+    margin:0;
+    padding:15px 15px 0 0;
+    text-align:right;
+    width:280px;
+}
+#rmdt-userStatus a {
+    font-weight:bold;
+    color: #D76C0D;
+}
+#rmdt-header #rmdt-nav {
+    background:#F7F7F7 url(../img/nav-bg.gif) repeat-x scroll 0;
+    clear:both;
+    height:10px;
+    margin:0;
+    padding:0;
+}

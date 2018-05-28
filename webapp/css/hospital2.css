@@ -1,0 +1,32 @@
+*{margin:0;padding:0;}
+body,html{width:100%;overflow-x:hidden;background:#fff;}
+li{list-style:none;}
+a{text-decoration:none;}
+.clear{clear:both;height:0;}
+.clear{clear:both;height:0;}
+.out{width:100%;height:100%;position:absolute; background:#fff;-webkit-overflow-scrolling: touch;}
+.head{height:8%;background:url(../image/head_an.png) no-repeat;font-size:18px;color:white;background-size:100% 100%;line-height:45px;overflow:hidden;position:relative;text-align:center;text-shadow:2px 2px 2px gray;}
+.back{position:absolute;left:9px;top:12px;}
+.menu{width:47px;height:100%;position:absolute;left:0;top:0;border-right:1px solid #91bfe5;text-align:center;line-height:50px;}
+.menu img{width:50%}
+.head span{position:absolute;left:30px;}
+.denglu_manner{height:92%;background:url(../image/denglu_img2.png) no-repeat;background-size:100% 100%;}
+.denglu_manner img{ position:absolute;bottom:20px;left:50%;margin-left:-130px;}
+.hospital_name{padding-top:20px;padding-bottom:20px;text-align:center;color:#3398c5;font-size:24px;}
+.yonghu{width:90%;height:38px;background:url(../image/user_an.png) no-repeat;background-position:left;margin:0 auto;border:1px solid #14b9d6;margin-bottom:16px;}
+.yonghu input{width:89%;height:38px;float:right;border:none;border-radius:2px;}
+.pass{width:90%;height:38px;background:url(../image/pass_an.png) no-repeat;background-position:left;margin:0 auto;border:1px solid #14b9d6;margin-bottom:7px;}
+.pass input{width:89%;height:38px;float:right;border:none;border-radius:2px;}
+.an_denglu{width:90%;height:42px;margin:0 auto;}
+.an_denglu input{ background:none;border:none;width:100%;height:42px;background:#6699cc;color:white;text-align:center;line-height:42px;border:none;border-radius:2px;font-size:18px;}
+.hidden_menu{width:164px;background:#ddf1ff;color:#5f6264;position:fixed;left:0;top:0;}
+.hidden_menu ul{width:100%;background:#ddf1ff;}
+.hidden_menu li{border-bottom:1px solid #d5e6f2;line-height:38px;font-size:14px;padding-left:40px;}
+.hidden_menu li img{float:left;margin-top:10px;margin-right:12px;width:20px;}
+.hidden_menu li a{color:#5f6264;width:100%; display:inline-block;}
+#wrapper {padding: 0;position: absolute;z-index: 1;top: 0;bottom: 40px;left: 0;width: 100%;overflow: auto;}
+
+
+
+
+
